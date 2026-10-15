@@ -6,17 +6,17 @@ package eva2_2_lista_simple;
 
 /**
  *
- * @author calza
+ * @author Salid 
  */
 public class Nodo {
-   //DOS ATRIBUTOS
+ 
    private int valor;
    private Nodo siguiente;
-   //CONSTRUCTORES:
+  
    public Nodo(){
-      siguiente = null;//ESTO ES MUY IMPORTANTE MARCAR EN NULL EL OBJETO, MARCA EL FIN DE LA LISTA
+      siguiente = null;
    }
-   public Nodo(int dato){//PONER EL VALOR A GUARDAR, AL MOMENTO DE CREAR EL NODO
+   public Nodo(int dato){
       this.valor = dato;
       siguiente = null;
    }
